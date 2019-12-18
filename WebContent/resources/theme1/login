@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<style type="text/css">
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+		#footer {
+			background: green;
+		    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%)
+		}
+		#footer * {
+			color: white;
+		}
+		#content-footer {
+			margin: 0 auto;
+			padding: 50px;
+		}
+		body {
+			background-image: url("image/login_background.png");
+		}
+	</style>
+</head>
+<body>
+	<img src="">
+	
+</body>
+</html>

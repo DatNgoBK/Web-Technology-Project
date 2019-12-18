@@ -1,0 +1,329 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+.red_text{
+    color: red;	
+    text-shadow: 2px 2px 2px  #EAF80A;
+}
+
+.red_text2{
+    color: red;
+}
+
+.white_text{
+    color: #FDFFF5;
+}
+
+main{
+    height: 900px;
+    
+}
+
+main#studentInfoPage{
+    height: 800px;
+}
+
+nav{
+    width: 12%;
+    height: 100%;
+    background-color: #222d32;
+    float: left;
+    font-size: 13px;
+    padding-top: 10px;
+    font-weight: bold;
+
+}
+
+nav #not_a_link{
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+
+}
+
+nav ul li a:hover{
+    background-color: gray;
+    text-decoration: none;
+    color: white;
+    border-left: 5px green solid;
+}
+
+section{
+    width: 88%;
+    height: 100%;
+    float: left;
+    font-size: 12px;
+}
+
+section #page_name{
+    background-color: #ecf0f5;
+    padding: 5px 0px;
+    border-bottom: 3px solid #d2d6de;
+    margin-bottom: 3px;
+}
+
+section #page_name h3{
+    margin: 10px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+section form#login{
+    position: absolute;
+    top: 230px;
+    left: 500px;
+    font-size: 15px;
+    background-color:#1335306e;
+    line-height: 15px;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+section form#info{
+    margin-left: 10px;
+}
+
+section form#info fieldset legend{
+    font-weight: bold;
+    color: yellowgreen;
+}
+
+section form#info div#search-div{
+    font-size: 15px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #526d9b;
+}
+
+section form#info div#search-div #btnSearchClassName{
+    background: url(../Image/search.png);
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 4px;
+}
+
+section form#info tr td a{
+    text-decoration: none;
+}
+
+section #anhTruongBk{
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 400px;
+}
+
+section form#info>table tr:first-child td{
+    background-color: #526d9b;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.btn-add {
+    padding: 5px 8px;
+    margin: 5px 10px;
+    margin-left: 0px;
+    width: 100px;
+    text-align: right;
+    background: url(../Image_admin/AddUser.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn-delete {
+    padding: 5px 8px;
+    margin: 5px 10px;
+    width: 100px;
+    text-align: right;
+    background: url(../Image_admin/delete.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+section form#info #pngTable table,section form#info #pngTable2 table{
+    font-size: 13px;
+}
+
+section form#info #pngTable2 table tr td:first-child{
+    font-weight: bold;
+}
+
+section form#info #pngTable2 table tr:first-child td{
+    background-color: #f1f1f1;
+    color: black;
+    font-weight: normal;
+}
+
+section form#info .txtInfo{
+    border: 0px;
+    background-color: #F1F1F1
+}
+
+section #statistical-div{
+    font-size: 15px;
+}
+
+section #statistical-div ul{
+    margin-top: 20px;
+}
+
+.clearboth{
+    clear: both;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: #526d9b;
+    text-align: center; 
+    color: #800000;
+}
+
+footer a{
+    color: #000080;
+}
+
+#UserInfoDialog{
+    width: 475px;
+    height: 150px;
+    background-color: #F2F2F2;
+    display: none;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    z-index:2;
+}
+
+#UserInfoDialog #UserInfoText{
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+.UserInfoDialog  table tr th,.ClassInfoDialog  table tr th{
+    background-color: #d8e4bc;
+    font-size: 13px;
+}
+
+#over {
+    display: none;
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+#message1{
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ui-autocomplete{
+    z-index: 9999;
+    width: auto;
+    padding: 0px;
+}
+
+.ui-autocomplete li{
+    list-style-type: none;
+    font-size: 15px;
+}
+
+#background-popup {z-index:85; position: fixed; display:none; height:100%; width:100%; background:#000; top:0px; left:0px;}
+#to-popup{background: #F9F9F9; color: #333333; display: none; width: 60%; height: 60%; overflow: auto;
+    position: fixed; top: 15%; z-index: 90; left: 50%; margin-left: -31%; padding: 15px;}
+#btn-close{transition:0.2s; display: block; width: 40px; height: 40px; position: absolute; top: 0; right: 0; cursor: pointer;
+    background: rgba(255, 255, 255, 0.8);}
+#btn-close:before{content: ""; display: block; position: absolute; top: 30%; left: 30%; width: 40%; height: 40%;
+    border-radius: 50%; background: #1A91B1; }
+#btn-close:hover{background: rgba(235, 95, 96, 0.2);}
+#popup-content{width: 100%; height: 85%; min-width: 500px; margin-top: 30px;}
+#loading-title{display: block; line-height: 400px; text-align: center;}
+
+#popup-content table tr{
+	height:30px;
+	width: 100%;
+}
+
+#popup-content table tr input{
+	height:30px;
+	width: 100%;
+}
+
+#popup-content table tr th{
+	background-color: #D6E0B8;
+	width: 20%;
+}
+
+#popup-content table tr td input[type="file"]{
+	width: 100%;
+}
+
+#popup-content table tr th span{
+	padding-left: 5px;
+
+}
+
+#popup-content div.div-image{
+	width: 122px;
+	height: 122px;
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid black;
+}
+
+#popup-content div.div-image img{
+	width: 120px;
+	height: 120px;
+	display: inline;
+	vertical-align: top;
+}
+
+#popup-content input[type="file"]{
+	display: none;
+}
+
+.btnSubmit{
+	position: relative;
+	float: right;
+	top: 50px;
+	right: 50px;
+	margin-left: 10px;
+	
+}
+
+.btn-login {
+    color: #fff;
+    background-color: #448a7f;
+    border-color: #357ebd;
+}
